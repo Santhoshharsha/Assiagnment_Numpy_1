@@ -20,3 +20,5 @@ def geoProgression(vector,increasing):
         return alec2[0:,1:]
     else:
         return alec2[0:,1:].T
+        
+geoProgression(vector, increasing=False)        
